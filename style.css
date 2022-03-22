@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;800&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
 section{
     height: 100vh;
     font-family: Montserrat,sans-serif;
@@ -7,6 +11,7 @@ section{
     color: inherit;
     text-align: left;
     margin-left: 31%;
+    
 }
 .wrapper{
     position: relative;
@@ -45,6 +50,7 @@ section{
     text-align: left;
     margin-left: 31%;
     margin-top: 0;
+    color: #333;
 }
 .header_library{
     font-family: Montserrat,sans-serif;
@@ -59,4 +65,25 @@ section{
 .logo{
     width: 200px;
     margin-left: 30%;
+}
+h1 {
+    display: block;
+    margin: 0px;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.15;
+    font-weight: 800;
+    font-style: normal;
+    color: #333;
+}
+.light {
+    font-weight: 200;
+}
+h1 {
+    font-size: 4.5714285714rem;
+}
+.h2{
+    color: #333;
+    border-bottom: 2px solid #fd5171; /* Параметры линии под текстом */
+    font-weight: bold; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
 }
