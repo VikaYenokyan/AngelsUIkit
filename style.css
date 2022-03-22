@@ -114,3 +114,29 @@ h1 {
     margin-left: 52%;
     text-align: right;
 }
+.box{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.box-color{
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+}
+.box-text {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+div {
+    display: block;
+}
