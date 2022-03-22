@@ -2,16 +2,26 @@
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
-section{
-    height: 100vh;
-    font-family: Montserrat,sans-serif;
+section h2{
+    
+    font-family: 'Montserrat',sans-serif;
     line-height: 1.15;
-    font-weight: 800;
+    font-weight: 200;
     font-style: normal;
     color: inherit;
+}
+section{
     text-align: left;
     margin-left: 31%;
-    
+    color: inherit;
+    font-family: 'Roboto',sans-serif;
+}
+.header{
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.15;
+    font-weight: 200;
+    font-style: normal;
+    color: inherit;
 }
 .wrapper{
     position: relative;
@@ -40,10 +50,10 @@ section{
     text-transform: uppercase;
     font-weight: 900;
     color: #fff;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 .header_module{
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     line-height: 1.15;
     font-weight: 800;
     font-style: normal;
@@ -53,7 +63,7 @@ section{
     color: #333;
 }
 .header_library{
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     line-height: 1.15;
     font-weight: 800;
     font-style: normal;
@@ -69,21 +79,26 @@ section{
 h1 {
     display: block;
     margin: 0px;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     line-height: 1.15;
     font-weight: 800;
     font-style: normal;
     color: #333;
+    font-size: 4.5714285714rem;
 }
 .light {
     font-weight: 200;
-}
-h1 {
-    font-size: 4.5714285714rem;
 }
 .h2{
     color: #333;
     border-bottom: 2px solid #fd5171; /* Параметры линии под текстом */
     font-weight: bold; /* Убираем жирное начертание */
     padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    line-height: 1.7142857143rem;
+    color: #333;
+    margin-bottom: 1em;
 }
