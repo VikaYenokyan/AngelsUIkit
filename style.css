@@ -102,3 +102,15 @@ h1 {
     color: #333;
     margin-bottom: 1em;
 }
+.footer{
+    overflow: hidden;
+    margin: 0 5%;
+}
+.footer-left {
+    float: left;
+    width: 48%;
+}
+.footer-right {
+    margin-left: 52%;
+    text-align: right;
+}
