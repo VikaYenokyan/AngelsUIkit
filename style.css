@@ -27,7 +27,7 @@ section{
     position: relative;
     overflow-x: hidden;
 }
-.menu{
+aside{
     position: fixed;
     left: 0;
     top:0;
