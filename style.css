@@ -192,4 +192,19 @@ ol{
     padding-right: 0.5em;
     color:#1b91e3;
     font-weight: bold;
+    margin-left: -1em;
+}
+a{
+    font-size: .7142857143rem;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    margin-right: 2em;
+}
+a:hover{
+    color: #fd5171;
 }
