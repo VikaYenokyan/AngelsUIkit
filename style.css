@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;800&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
@@ -76,7 +76,7 @@ aside{
     width: 200px;
     margin-left: 30%;
 }
-h1 {
+.hh {
     display: block;
     margin: 0px;
     font-family: 'Montserrat',sans-serif;
@@ -84,7 +84,7 @@ h1 {
     font-weight: 800;
     font-style: normal;
     color: #333;
-    font-size: 4.5714285714rem;
+    
 }
 .light {
     font-weight: 200;
@@ -207,4 +207,15 @@ a{
 }
 a:hover{
     color: #fd5171;
+}
+.font1, .font2{
+    font-weight: 300;
+    font-size: 2rem;
+    color: #333;
+}
+.font2{
+    font-family: 'Montserrat', sans-serif; 
+}
+.font1{
+    font-family: 'Roboto',sans-serif; 
 }
