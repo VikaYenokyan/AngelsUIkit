@@ -219,3 +219,23 @@ a:hover{
 .font1{
     font-family: 'Roboto',sans-serif; 
 }
+form{
+    width: 60%;
+    padding: 3.9285714286rem 1.4285714286rem;
+    background: #fff;
+    border: 0.0714285714rem solid #f7f7f7;
+    box-shadow: 0 2.5rem 3.5714285714rem -2.8571428571rem #3f5b6e;
+    top: 4.5714285714rem;
+    text-align: center;
+    margin: 0 1.4285714286rem 0;
+}
+.common-text{
+    font-size: 1rem;
+    line-height: 1.7142857143rem;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0 0 2.2857142857rem;
+    max-width: 45rem;
+    margin: 0 auto;
+}
