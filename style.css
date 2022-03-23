@@ -140,3 +140,56 @@ h1 {
 div {
     display: block;
 }
+.first-ul{
+    float: left;
+}
+.first-li{
+    list-style: none;
+    text-indent: -1em;
+    margin-bottom: 1.5em;
+    width: 10em;
+}
+.first-li::before{
+    content: '\25CF';
+    color: #1b91e3;
+    padding-right: 0.5em;
+}
+.second-ul {
+    padding-left: 2.8571428571rem;
+    position: relative;
+    float: left;
+}
+.second-li::before{
+    content: url(images/marker.png);
+    position: absolute;
+    left: 0;
+    margin-top: -8em;
+    transform: scale(.7);
+}
+.second-li{
+    text-indent: 0;
+    margin-bottom: 1.5em;
+    width: 10em;
+    vertical-align: top;
+    list-style: none;
+}
+.second-li::before{
+    font-size: 1px;
+}
+ol{
+    list-style-type: none;
+    counter-reset:  item;
+    float: left;
+}
+.li{
+    text-indent: -1em;
+    margin-bottom: 1.5em;
+    width: 10em;
+}
+.li::before{
+    content: counter(item) '. ';
+    counter-increment: item;
+    padding-right: 0.5em;
+    color:#1b91e3;
+    font-weight: bold;
+}
