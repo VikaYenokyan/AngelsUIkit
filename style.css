@@ -239,3 +239,76 @@ form{
     max-width: 45rem;
     margin: 0 auto;
 }
+.button-one{
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+    font-weight: 800;
+    font-size: .7142857143rem;
+    line-height: 1.16;
+    letter-spacing: .1em;
+    position: relative;
+    top: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1.2857142857rem 1.7857142857rem;
+    border-radius: 0.2142857143rem;
+    border: 1px solid transparent;
+    transition: all .175s ease-out;
+}
+.button-one{
+    background: #1b91e3;
+    border-color: #1b91e3;
+}
+.button-one:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px #acd7f5;
+}
+.button-one:active{
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.25), 1px 1px 5px #acd7f5;
+}
+.button-two{
+    transition: all .175s ease-out; /* анимация поворота */
+    transform-style: preserve-3d; /* поддержка 3D */
+    min-width: auto;
+    position: absolute;
+    perspective-origin: center; /* с какой точки смотрим на объект */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.button-two:hover{
+    transform: rotateX(90deg);
+    transform-origin: 50% 50% 28px;
+}
+.side {
+    font-weight: 800;
+    font-size: .7142857143rem;
+    line-height: 1.16;
+    letter-spacing: .1em;
+    top: 0;
+    white-space: nowrap; /* запретить перенос внутри текста */
+    text-transform: uppercase; /* заглавный регистр */
+    padding: 1.2857142857rem 1.7857142857rem; /* расстояние до рамки */
+    color: #fff;
+    position: absolute;
+    display: block; 
+    border-radius: 0.2142857143rem; /* углы рамки */
+    border: 1px solid transparent; /* границы рамки */
+    position: absolute;
+    font-family: 'Montserrat', sans-serif; 
+    background: #fd5171;
+    border-color: #fd5171;
+}
+
+.bottom {
+    transform: translateY(22px) rotateX(90deg) rotateZ(180deg) rotateY(180deg); 
+}
+.bottom:hover, .front:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px #fd517173;
+    border-color: #fd2e54;
+    background-color: #fd385c;
+}
+.front {
+    transform: translateZ(22px);
+}
