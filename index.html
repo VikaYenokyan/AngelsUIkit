@@ -14,7 +14,6 @@
                 <a href="#opacity">Прозрачность</a>
                 <a href="#header">Заголовок</a>
                 <a href="#font">Шрифт</a>
-                <a href="#animated_text">Анимированный текст</a>
                 <a href="#p">Абзац</a>
                 <a href="#list">Список</a>
                 <a href="#link">Cсылка</a>
@@ -24,7 +23,6 @@
                 <a href="#drop-down_list">Выпадающий список</a>
                 <a href="#radio">Переключатель</a>
                 <a href="#checkbox">Флажок</a>
-                <a href="#icon">Иконка</a>
             </nav>
         </aside>
         <div class="content">
@@ -171,9 +169,6 @@
                 <p><span class="font1">Система Ангел (Roboto)</span></p>
                 <p><span class="font2">Система Ангел (Montserrat)</span></p>
             </section>
-            <section id="animated_text" class="animated_text">
-                <h2 class="h2">Анимированный текст</h2>
-            </section>
             <section id="p" class="p" >
                 <h2 class="h2" style="font-weight: bold;">Абзац</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, facere! Sequi accusamus impedit reiciendis laborum! Excepturi cumque quibusdam necessitatibus possimus, omnis repudiandae unde veritatis corporis, temporibus repellendus ipsum accusamus recusandae.
@@ -244,8 +239,16 @@
                         <span class="bottom side">Подробнее</span> 
                 </a>
             </section>
-            <section id="input" class="input">
+            <section id="input">
                 <h2 class="h2">Текстовое поле</h2>
+                <div class="row">
+                    <input type="text" id="text" placeholder=" " required>
+                    <label for="text">Ваше имя</label>
+                </div>
+                <div class="row" style="width: 60%;">
+                    <textarea id="textareaa" placeholder=" " required maxlength="10000" style="height: 80px;"></textarea>
+                    <label for="textareaa">Опишите ваш проект</label>
+                </div>
             </section>
             <section id="drop-down_list" class="drop-down_list">
                 <h2 class="h2">Выпадающий список</h2>
@@ -254,10 +257,7 @@
                 <h2 class="h2">Переключатель</h2>
             </section>
             <section id="checkbox" class="checkbox">
-                <h2 class="h2">флажок</h2>
-            </section>
-            <section id="icon" class="icon">
-                <h2 class="h2">Иконка</h2>
+                <h2 class="h2">Флажок</h2>
             </section>
         </div>
     </div>
