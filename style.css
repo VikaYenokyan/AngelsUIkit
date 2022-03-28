@@ -3,7 +3,6 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
 section h2{
-    
     font-family: 'Montserrat',sans-serif;
     line-height: 1.15;
     font-weight: 200;
@@ -91,9 +90,9 @@ aside{
 }
 .h2{
     color: #333;
-    border-bottom: 2px solid #fd5171; /* Параметры линии под текстом */
-    font-weight: bold; /* Убираем жирное начертание */
-    padding-bottom: 5px; /* Расстояние от текста до линии */
+    border-bottom: 2px solid #fd5171;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 .p{
     font-family: 'Roboto',sans-serif;
@@ -267,11 +266,11 @@ form{
     box-shadow: inset 2px 2px 5px rgba(0,0,0,0.25), 1px 1px 5px #acd7f5;
 }
 .button-two{
-    transition: all .175s ease-out; /* анимация поворота */
-    transform-style: preserve-3d; /* поддержка 3D */
+    transition: all .175s ease-out;
+    transform-style: preserve-3d;
     min-width: auto;
     position: absolute;
-    perspective-origin: center; /* с какой точки смотрим на объект */
+    perspective-origin: center;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -287,14 +286,14 @@ form{
     line-height: 1.16;
     letter-spacing: .1em;
     top: 0;
-    white-space: nowrap; /* запретить перенос внутри текста */
-    text-transform: uppercase; /* заглавный регистр */
-    padding: 1.2857142857rem 1.7857142857rem; /* расстояние до рамки */
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding: 1.2857142857rem 1.7857142857rem;
     color: #fff;
     position: absolute;
     display: block; 
-    border-radius: 0.2142857143rem; /* углы рамки */
-    border: 1px solid transparent; /* границы рамки */
+    border-radius: 0.2142857143rem;
+    border: 1px solid transparent;
     position: absolute;
     font-family: 'Montserrat', sans-serif; 
     background: #fd5171;
@@ -373,12 +372,11 @@ select{
     border-color: transparent;
     border-bottom: 0.0714285714rem solid #ccc;
 }
-.input-checkbox
-{
+.input-radio, .input-checkbox{
     position: absolute;
     left: -9999px;
 }
-.checkbox {
+.checkbox, .radio {
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -389,18 +387,25 @@ select{
     top: 0.5rem;
     left: 0;
     cursor: pointer;
-
 }
-.input-checkbox:checked + .checkbox{
+.radio{
+    border-radius: 100%;
+}
+.input-checkbox:checked + .checkbox,
+.input-radio:checked + .radio{
     background: url(/images/check_mark_white.png) no-repeat 50% 50%;
     background-color: #1b91e3;
     border-color: #1b91e3;
 }
 label {
     cursor: pointer;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
 }
 span{
-    padding-left: 1rem
+    padding-left: 1rem;
+}
+footer{
+    border-top: 0.0714285714rem solid #ececec;
+    padding: 1.9285714286rem;
 }

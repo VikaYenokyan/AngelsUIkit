@@ -259,19 +259,28 @@
                     <option>Вариант 4</option>
                 </select></p>
             </section>
-            <section id="radio" class="radio">
+            <section id="radio">
                 <h2 class="h2">Переключатель</h2>
                 <p>
-                    <input id="check1" name="check" type="radio" value="1"/>
-                    <label for="check1">Переключатель 1</label>
+                    <label>
+                        <input class="input-radio" name="check" type="radio" value="1" checked/>
+                        <i class="radio"></i>
+                        <span>Переключатель 1</span>
+                    </label>
                 </p>
                 <p>
-                    <input id="check2" name="check" type="radio" value="2" checked/>
-                    <label for="check2">Переключатель 2</label>
+                    <label>
+                        <input class="input-radio" name="check" type="radio" value="2"/>
+                        <i class="radio"></i>
+                        <span>Переключатель 2</span>
+                    </label>
                 </p>
                 <p>
-                    <input id="check3" name="check" type="radio" value="3" disabled/>
-                    <label for="check3">Переключатель 3</label>
+                    <label>
+                        <input class="input-radio" name="check" type="radio" value="3"/>
+                        <i class="radio"></i>
+                        <span>Переключатель 3</span>
+                    </label>
                 </p>
             </section>
             <section id="checkbox">
@@ -279,14 +288,14 @@
                 <div class="switch">
                 <p>
                     <label>
-                        <input class="input-checkbox" name="ch" type="checkbox" value="1"/>
+                        <input class="input-checkbox" name="ch" type="checkbox" value="1" checked/>
                         <i class="checkbox"></i>
                         <span>Флажок 1</span>
                     </label>
                 </p>
                 <p>
                     <label>
-                        <input class="input-checkbox" name="ch" type="checkbox" value="2" checked/>
+                        <input class="input-checkbox" name="ch" type="checkbox" value="2"/>
                         <i class="checkbox"></i>
                         <span>Флажок 2</span>
                     </label>
@@ -302,11 +311,13 @@
             </section>
         </div>
     </div>
-    <footer class="footer">
+    <footer>
         <section>
-        <div class="footer-left">© 2022</div>
-        <div class="footer-right">Angels UI</div>
-    </section>
+            <div class="footer">
+                <div class="footer-left">© 2022</div>
+                <div class="footer-right">Angels UI</div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
