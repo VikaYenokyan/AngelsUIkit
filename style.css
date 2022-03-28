@@ -354,3 +354,16 @@ form{
     color: #999;
     visibility: visible;
 }
+option, select{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    background: #fff;
+    color: #333;
+    padding: 1.0714285714rem 0;
+}
+select{
+    outline: 0;
+    border-color: transparent;
+    border-bottom: 0.0714285714rem solid #ccc;
+}
