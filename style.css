@@ -316,6 +316,12 @@ form{
     display: block;
     width: 60%;
 }
+input{
+    background: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
 .row input, .row textarea{
     width: 100%;
     box-sizing: border-box;
