@@ -142,13 +142,13 @@ div {
 .first-ul{
     float: left;
 }
-.first-li{
+.first-ul li{
     list-style: none;
     text-indent: -1em;
     margin-bottom: 1.5em;
     width: 10em;
 }
-.first-li::before{
+.first-ul li::before{
     content: '\25CF';
     color: #1b91e3;
     padding-right: 0.5em;
@@ -158,32 +158,30 @@ div {
     position: relative;
     float: left;
 }
-.second-li::before{
+.second-ul li::before{
     content: url(images/Component\ 2.svg);
     position: absolute;
     left: 0;
+    font-size: 1px;
 }
-.second-li{
+.second-ul li{
     text-indent: 0;
     margin-bottom: 1.5em;
     width: 10em;
     vertical-align: top;
     list-style: none;
 }
-.second-li::before{
-    font-size: 1px;
-}
 ol{
     list-style-type: none;
     counter-reset:  item;
     float: left;
 }
-.li{
+ol li{
     text-indent: -1em;
     margin-bottom: 1.5em;
     width: 10em;
 }
-.li::before{
+ol li::before{
     content: counter(item) '. ';
     counter-increment: item;
     padding-right: 0.5em;
