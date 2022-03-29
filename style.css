@@ -228,6 +228,13 @@ form{
     text-align: center;
     margin: 0 1.4285714286rem 0;
 }
+.form-main-container {
+    max-width: 29.3571428571rem;
+    width: 100%;
+    padding: 0 1.4285714286rem;
+    text-align: left;
+    display: inline-block;
+}
 .common-text{
     font-size: 1rem;
     line-height: 1.7142857143rem;
@@ -366,6 +373,7 @@ option, select{
     background: #fff;
     color: #333;
     padding: 1.0714285714rem 0;
+    left: 0;
 }
 select{
     outline: 0;
