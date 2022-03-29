@@ -159,11 +159,9 @@ div {
     float: left;
 }
 .second-li::before{
-    content: url(images/marker.png);
+    content: url(images/Component\ 2.svg);
     position: absolute;
     left: 0;
-    margin-top: -8em;
-    transform: scale(.7);
 }
 .second-li{
     text-indent: 0;
