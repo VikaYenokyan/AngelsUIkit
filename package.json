@@ -1,0 +1,25 @@
+{
+  "name": "angelsuikit",
+  "version": "0.0.2",
+  "description": "<p align=\"center\">\r    <img  width=\"250\"  src=\"/images/logo.png\">\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikaYenokyan/AngelsUIkit.git"
+  },
+  "author": "VikaYenokyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikaYenokyan/AngelsUIkit/issues"
+  },
+  "homepage": "https://github.com/VikaYenokyan/AngelsUIkit#readme",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

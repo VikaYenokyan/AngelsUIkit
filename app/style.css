@@ -159,7 +159,7 @@ div {
     float: left;
 }
 .second-ul li::before{
-    content: url(images/Component\ 2.svg);
+    content: url(images/list.svg);
     position: absolute;
     left: 0;
     font-size: 1px;
@@ -397,7 +397,7 @@ select{
 }
 .input-checkbox:checked + .checkbox,
 .input-radio:checked + .radio{
-    background: url(/images/check_mark_white.png) no-repeat 50% 50%;
+    background: url(images/check_mark_white.png) no-repeat 50% 50%;
     background-color: #1b91e3;
     border-color: #1b91e3;
 }
