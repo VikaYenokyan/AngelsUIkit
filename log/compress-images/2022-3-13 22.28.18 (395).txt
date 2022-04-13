@@ -1,0 +1,16 @@
+File from: [src/images/src/gitbash2.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png src/images/src/gitbash2.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png.tmp' for writing
+File from: [src/images/src/marker.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png src/images/src/marker.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png.tmp' for writing

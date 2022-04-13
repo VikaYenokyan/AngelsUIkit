@@ -1,0 +1,8 @@
+File from: [src/images/src/properties.png]
+
+File to: [src/images/dest/*properties.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*properties.png src/images/src/properties.png
+  error: 'src\images\dest\properties.png' exists; not overwriting

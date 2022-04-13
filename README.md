@@ -3,7 +3,7 @@
 ### Библиотека компонентов дизайн-системы
 
 <p align="center">
-   <img  width="250"  src="/images/logo.png">
+   <img  width="250"  src="/images/dest/logo.png">
 </p>
 
 
@@ -22,27 +22,27 @@
 
 1. Чтобы клонировать репозиторий, нажмите кнопку **Code**
 <p align="center">
-   <img  width="200"  src="/images/code.png">
+   <img  width="200"  src="/images/dest/code.png">
 </p>
 
 2. Скопируйте код, который появляется после нажатия кнопки.
 <p align="center">
-   <img  width="200"  src="/images/link.png">
+   <img  width="200"  src="/images/dest/link.png">
 </p>
 
 3. Создайте папку с именем **AngelsUI** на вашем локальном компьютере
 <p align="center">
-   <img  width="100"  src="/images/folder.png">
+   <img  width="100"  src="/images/dest/folder.png">
 </p>
 
 4. После этого откройте Git bash в своей системе и перейдите в созданную папку. Это можно сделать, щёлкнув правой кнопкой мыши внутри папки и выбрав элемент **Git Bash here**
 <p align="center">
-   <img  width="200"  src="/images/properties.png">
+   <img  width="200"  src="/images/dest/properties.png">
 </p>
 
 Результатом высветится командная строка **Git Bash**
 <p align="center">
-   <img  width="400"  src="/images/gitbash.png">
+   <img  width="400"  src="/images/dest/gitbash.png">
 </p>
 
 5. Нажмите следующую команду, чтобы клонировать репозиторий:
@@ -51,12 +51,12 @@
 URL здесь представляет собой тот же URL, который мы скопировали на втором шаге.
 
 <p align="center">
-   <img  width="400"  src="/images/gitbash2.png">
+   <img  width="400"  src="/images/dest/gitbash2.png">
 </p>
 
 6. При нажатии клавиши enter появится следующее сообщение.
 <p align="center">
-   <img  width="400"  src="/images/gitbash3.png">
+   <img  width="400"  src="/images/dest/gitbash3.png">
 </p>
 
 Это займет несколько секунд, чтобы клонировать хранилище в вашей системе.
@@ -66,17 +66,17 @@ URL здесь представляет собой тот же URL, которы
 7. Подтвердите клонирование, проверив каталоги еще раз с помощью команды ls, которая перечисляет все файлы и папки. 
 >ls
 <p align="center">
-   <img  width="400"  src="/images/gitbash4.png">
+   <img  width="400"  src="/images/dest/gitbash4.png">
 </p>
 
 8. Проверьте папку с проектом, перейдя к ней вручную.
 <p align="center">
-   <img  width="400"  src="/images/project.png">
+   <img  width="400"  src="/images/dest/project.png">
 </p>
 
 В ней будут храниться все файлы проекта **AngelsUIkit**
 <p align="center">
-   <img  width="400"  src="/images/project2.png">
+   <img  width="400"  src="/images/dest/project2.png">
 </p>
 
 9. Нажмите на файл ..., чтобы открыть и запустить проект

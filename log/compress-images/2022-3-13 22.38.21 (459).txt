@@ -1,0 +1,8 @@
+File from: [src/images/src/project2.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}project2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}project2.png src/images/src/project2.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}project2.png.tmp' for writing

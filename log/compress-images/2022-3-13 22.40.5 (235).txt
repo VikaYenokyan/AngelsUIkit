@@ -1,0 +1,32 @@
+File from: [src/images/src/gitbash.png]
+
+File to: [src/images/dest/*gitbash.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*gitbash.png src/images/src/gitbash.png
+  error: 'src\images\dest\gitbash.png' exists; not overwriting
+File from: [src/images/src/folder.png]
+
+File to: [src/images/dest/*folder.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*folder.png src/images/src/folder.png
+  error: 'src\images\dest\folder.png' exists; not overwriting
+File from: [src/images/src/code.png]
+
+File to: [src/images/dest/*code.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*code.png src/images/src/code.png
+  error: 'src\images\dest\code.png' exists; not overwriting
+File from: [src/images/src/check_mark_white.png]
+
+File to: [src/images/dest/*check_mark_white.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*check_mark_white.png src/images/src/check_mark_white.png
+  error: 'src\images\dest\check_mark_white.png' exists; not overwriting

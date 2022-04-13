@@ -4,7 +4,9 @@
   "description": "<p align=\"center\">\r    <img  width=\"250\"  src=\"/images/logo.png\">\r </p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "npx gulp",
+    "start server": "npx gulp browsersync",
+    "gulp build": "npx gulp build"
   },
   "repository": {
     "type": "git",
@@ -16,10 +18,21 @@
     "url": "https://github.com/VikaYenokyan/AngelsUIkit/issues"
   },
   "homepage": "https://github.com/VikaYenokyan/AngelsUIkit#readme",
-  "dependencies": {
-    "gulp-cli": "^2.3.0"
-  },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.27.9",
+    "compress-images": "^2.0.5",
+    "del": "^6.0.0",
+    "gifsicle": "^5.3.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-import": "^0.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "jquery": "^3.6.0",
+    "pngquant-bin": "^6.0.0",
+    "sass": "^1.49.11"
   }
 }

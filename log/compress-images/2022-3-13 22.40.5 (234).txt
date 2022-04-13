@@ -1,0 +1,24 @@
+File from: [src/images/src/gitbash4.png]
+
+File to: [src/images/dest/*gitbash4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*gitbash4.png src/images/src/gitbash4.png
+  error: 'src\images\dest\gitbash4.png' exists; not overwriting
+File from: [src/images/src/gitbash3.png]
+
+File to: [src/images/dest/*gitbash3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*gitbash3.png src/images/src/gitbash3.png
+  error: 'src\images\dest\gitbash3.png' exists; not overwriting
+File from: [src/images/src/gitbash2.png]
+
+File to: [src/images/dest/*gitbash2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*gitbash2.png src/images/src/gitbash2.png
+  error: 'src\images\dest\gitbash2.png' exists; not overwriting

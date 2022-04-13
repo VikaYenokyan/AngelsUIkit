@@ -1,0 +1,16 @@
+File from: [src/images/src/logo.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png src/images/src/logo.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png.tmp' for writing
+File from: [src/images/src/code.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}code.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}code.png src/images/src/code.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}code.png.tmp' for writing

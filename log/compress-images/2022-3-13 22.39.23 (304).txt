@@ -1,0 +1,8 @@
+File from: [src/images/src/marker.png]
+
+File to: [src/images/dest/*marker.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*marker.png src/images/src/marker.png
+  error: 'src\images\dest\marker.png' exists; not overwriting

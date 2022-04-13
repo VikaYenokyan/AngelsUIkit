@@ -1,0 +1,32 @@
+File from: [src/images/src/project.png]
+
+File to: [src/images/dest/*project.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*project.png src/images/src/project.png
+  error: 'src\images\dest\project.png' exists; not overwriting
+File from: [src/images/src/marker.png]
+
+File to: [src/images/dest/*marker.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*marker.png src/images/src/marker.png
+  error: 'src\images\dest\marker.png' exists; not overwriting
+File from: [src/images/src/link.png]
+
+File to: [src/images/dest/*link.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*link.png src/images/src/link.png
+  error: 'src\images\dest\link.png' exists; not overwriting
+File from: [src/images/src/logo.png]
+
+File to: [src/images/dest/*logo.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*logo.png src/images/src/logo.png
+  error: 'src\images\dest\logo.png' exists; not overwriting

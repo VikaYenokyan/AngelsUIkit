@@ -1,0 +1,16 @@
+File from: [src/images/src/folder.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}folder.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}folder.png src/images/src/folder.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}folder.png.tmp' for writing
+File from: [src/images/src/check_mark_white.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}check_mark_white.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}check_mark_white.png src/images/src/check_mark_white.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}check_mark_white.png.tmp' for writing

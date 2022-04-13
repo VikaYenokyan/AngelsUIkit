@@ -1,0 +1,40 @@
+File from: [src/images/src/marker.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png src/images/src/marker.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}marker.png.tmp' for writing
+File from: [src/images/src/gitbash2.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png src/images/src/gitbash2.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash2.png.tmp' for writing
+File from: [src/images/src/gitbash.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash.png src/images/src/gitbash.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash.png.tmp' for writing
+File from: [src/images/src/logo.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png src/images/src/logo.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}logo.png.tmp' for writing
+File from: [src/images/src/code.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}code.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}code.png src/images/src/code.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}code.png.tmp' for writing

@@ -1,0 +1,32 @@
+File from: [src/images/src/project.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}project.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}project.png src/images/src/project.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}project.png.tmp' for writing
+File from: [src/images/src/properties.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}properties.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}properties.png src/images/src/properties.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}properties.png.tmp' for writing
+File from: [src/images/src/gitbash4.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash4.png src/images/src/gitbash4.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash4.png.tmp' for writing
+File from: [src/images/src/gitbash3.png]
+
+File to: [src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Виктория\Desktop\AngelsUIkit\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash3.png src/images/src/gitbash3.png
+  error: cannot open 'src/images/dest/*.{jpg,png,svggif,ico,webp}gitbash3.png.tmp' for writing
