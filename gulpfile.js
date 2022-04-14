@@ -34,11 +34,11 @@ let source_folder = "src";
 
 let path = {
 	src: {
-		html: source_folder + "/*.html",
-		includes: {
+		html: source_folder + "/**/*.{html, htm}",
+		/* includes: {
 			header: source_folder + "/includes/header.html",
 			footer: source_folder + "/includes/footer.html"
-		},
+		}, */
 		css: [source_folder + "/css/*.css", "!"+source_folder + "/css/*.min.css"],
 		js: source_folder + "/js/src.js",
 		img: {
@@ -135,7 +135,10 @@ function cleandist() {
 
 function html(){
 	return src(path.src.html)
-		.pipe(fileinclude())
+		.pipe(fileinclude({
+			prefix: '@@',
+			basepath: '@file'
+		  }))
 		.pipe(dest(project_folder))
 		.pipe(browserSync.stream())
 }
@@ -178,4 +181,14 @@ exports.html = html;
 exports.build = series(cleandist, html, styles, scripts, images, buildcopy);
 
 // Экспортируем дефолтный таск с нужным набором функций
-exports.default = parallel(styles, html, scripts, browsersync, startwatch);
+exports.default = series( 
+	parallel(
+	  styles, 
+	  html, 
+	  scripts
+	), 
+	parallel(
+	  browsersync,
+	  startwatch
+	)
+  );
